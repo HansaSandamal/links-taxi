@@ -1,13 +1,14 @@
 import './App.css';
+import { Route, BrowserRouter, Routes} from "react-router-dom";
+import HomeView from './views/HomeView/HomeView';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to Links Taxi</h1>
-      <p>Services: Airport Transfers, Long Distance, Day Tours, City Tours, Yala Udawalawa Safari</p>
-      <p>Contact Details: 0777598000, 0713366180</p>
-      <p>Email: linkstourssrilanka@gmail.com</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<HomeView/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
