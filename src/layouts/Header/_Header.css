@@ -1,0 +1,8 @@
+.navbar-brand-custom {
+    margin-left: 10px;
+}
+
+.navbar-brand-custom img {
+    filter: brightness(0) invert(1);
+    /* Change logo color to white */
+}
