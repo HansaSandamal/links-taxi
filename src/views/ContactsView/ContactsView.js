@@ -1,9 +1,11 @@
 import React from "react";
+import { Row, Col } from "react-bootstrap";
 import facebook from "../../assets/images/facebook.png";
 import twitter from "../../assets/images/twitter.png";
 import whatsapp from "../../assets/images/whatsapp.png";
 import { configs } from "../../utils/config";
 import "./_ContactsView.css";
+import Map from "../../components/Map/Map";
 
 const SocialButton = ({ image, url, title, margin }) => {
   return (
@@ -24,10 +26,17 @@ const SocialButton = ({ image, url, title, margin }) => {
 function ContactsView() {
   return (
     <div className="contacts-view">
-      <div className="contact-details">
-        <p>Email: linkstourssrilanka@gmail.com</p>
-        <p>Contact: +94 777598000, +94 713366180</p>
-      </div>
+      <Row>
+        <Col xs={12} md={6}>
+          <Map />
+        </Col>
+        <Col xs={12} md={6}>
+          <div className="contact-details">
+            <p>Email: linkstourssrilanka@gmail.com</p>
+            <p>Contact: +94 777598000, +94 713366180</p>
+          </div>
+        </Col>
+      </Row>
       <span className="share-text">Share this link via</span>
       <div className="social-buttons">
         <SocialButton

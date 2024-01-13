@@ -1,10 +1,33 @@
-footer {
+/* footer {
     position: fixed;
     bottom: 0;
     width: 100%;
   }
   
-  /* Additional styling for better alignment */
   footer p {
     margin-bottom: 0;
+  } */
+  /* Mobile responsiveness and position for the footer */
+footer {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40; /* Set background color for better visibility */
+  padding: 10px 0; /* Add padding for better spacing */
+  text-align: center; /* Center the text */
+}
+
+/* Style for the text in the footer */
+footer p {
+  margin-bottom: 0;
+  color: #fff; /* Set text color to white */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  footer {
+    position: static; /* Change position to static on smaller screens */
   }
+}

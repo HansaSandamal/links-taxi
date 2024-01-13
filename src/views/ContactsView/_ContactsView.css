@@ -1,4 +1,6 @@
 .contacts-view {
+    margin: 0;
+    padding: 0;
     text-align: center;
     padding: 20px;
     background-color: #f9f9f9;
@@ -19,7 +21,8 @@
 }
 
 .social-button {
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     /* Adjust the spacing between social buttons */
     transition: transform 0.3s ease-in-out;
 }
@@ -40,5 +43,6 @@
 
 .contact-details {
     margin-top: 20px;
-    background-color: #ded637; /* Adjust text color for better visibility */
+    background-color: #ded637;
+    /* Adjust text color for better visibility */
 }
