@@ -41,8 +41,25 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.contact-details {
+.owner-card {
+    display: flex;
+    align-items: center;
     margin-top: 20px;
+    padding: 15px;
     background-color: #ded637;
-    /* Adjust text color for better visibility */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.owner-image {
+    width: 100px;
+    /* Adjust the size as needed */
+    height: 100px;
+    /* Adjust the size as needed */
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.owner-info {
+    flex-grow: 1;
 }

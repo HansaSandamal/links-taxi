@@ -6,6 +6,7 @@ import whatsapp from "../../assets/images/whatsapp.png";
 import { configs } from "../../utils/config";
 import "./_ContactsView.css";
 import Map from "../../components/Map/Map";
+import ownerImage from "../../assets/images/ownerImage.jpeg";
 
 const SocialButton = ({ image, url, title, margin }) => {
   return (
@@ -31,9 +32,17 @@ function ContactsView() {
           <Map />
         </Col>
         <Col xs={12} md={6}>
-          <div className="contact-details">
-            <p>Email: linkstourssrilanka@gmail.com</p>
-            <p>Contact: +94 777598000, +94 713366180</p>
+          <div className="owner-card">
+            <img src={ownerImage} alt="Owner" className="owner-image" />
+            <div className="owner-info">
+              <h3>Owner's Name</h3>
+              <p>
+                Owner's Bio Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.
+              </p>
+              <p>Email: linkstourssrilanka@gmail.com</p>
+              <p>Contact: +94 777598000, +94 713366180</p>
+            </div>
           </div>
         </Col>
       </Row>
