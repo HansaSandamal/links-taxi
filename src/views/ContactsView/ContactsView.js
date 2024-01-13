@@ -24,6 +24,10 @@ const SocialButton = ({ image, url, title, margin }) => {
 function ContactsView() {
   return (
     <div className="contacts-view">
+      <div className="contact-details">
+        <p>Email: linkstourssrilanka@gmail.com</p>
+        <p>Contact: +94 777598000, +94 713366180</p>
+      </div>
       <span className="share-text">Share this link via</span>
       <div className="social-buttons">
         <SocialButton

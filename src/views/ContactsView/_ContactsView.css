@@ -37,3 +37,8 @@
     border-radius: 50%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+
+.contact-details {
+    margin-top: 20px;
+    background-color: #ded637; /* Adjust text color for better visibility */
+}
