@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "./_Header.css";
-import logo from "../../assets/images/logo.png"
+import logo from "../../assets/images/logo.png";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Header = () => {
   return (
@@ -20,7 +21,25 @@ const Header = () => {
       </Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/service">Services</Nav.Link>
+        <NavDropdown title="Services" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/service">All Services</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="/service/airport transfers">
+            Airport Transfers
+          </NavDropdown.Item>
+          <NavDropdown.Item href="/service/long distance">
+            Long Distance
+          </NavDropdown.Item>
+          <NavDropdown.Item href="/service/day tours">
+            Day Tours
+          </NavDropdown.Item>
+          <NavDropdown.Item href="/service/city tours">
+            City Tours
+          </NavDropdown.Item>
+          <NavDropdown.Item href="/service/yala udawalawa safari">
+            Yala Udawalawa Safari
+          </NavDropdown.Item>
+        </NavDropdown>
         <Nav.Link href="/contacts">Contacts</Nav.Link>
       </Nav>
     </Navbar>

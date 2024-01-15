@@ -34,9 +34,9 @@ function ContactsView() {
         <Col xs={12} md={6}>
           <div className="owner-card">
             <img src={ownerImage} alt="Owner" className="owner-image" />
-            <div className="owner-info">
-              <h3>Owner's Name</h3>
-              <p>
+            <div className="owner-info p-1">
+              <h3 className="owner-name">Owner's Name</h3>
+              <p className="owner-bio">
                 Owner's Bio Lorem ipsum dolor sit amet, consectetur adipiscing
                 elit.
               </p>
