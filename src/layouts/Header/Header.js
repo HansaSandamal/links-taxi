@@ -20,8 +20,8 @@ const Header = () => {
       </Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/Services">Services</Nav.Link>
-        <Nav.Link href="/Contacts">Contacts</Nav.Link>
+        <Nav.Link href="/service">Services</Nav.Link>
+        <Nav.Link href="/contacts">Contacts</Nav.Link>
       </Nav>
     </Navbar>
   );

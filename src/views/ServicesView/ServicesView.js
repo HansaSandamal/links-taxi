@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./_ServicesView.css";
 import airportImage from "../../assets/images/airport.jpg";
 import longDistanceImage from "../../assets/images/long-distance.jpg";
@@ -14,16 +15,19 @@ const Services = () => {
       <Row className="mb-5">
         {services.map((service, index) => (
           <Col key={index} md={4} className="mb-4">
-            <div className="service-card">
-              <img
-                src={service.image}
-                alt={service.title}
-                className="img-fluid"
-              />
-              <div className="card-body">
-                <h4 className="mt-3">{service.title}</h4>
+            {/* Use Link to navigate to a specific route when clicking on the card */}
+            <Link to={`/service/${encodeURIComponent(service.title.toLowerCase())}`}>
+              <div className="service-card">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="img-fluid"
+                />
+                <div className="card-body">
+                  <h4 className="mt-3">{service.title}</h4>
+                </div>
               </div>
-            </div>
+            </Link>
           </Col>
         ))}
       </Row>
