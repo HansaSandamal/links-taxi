@@ -10,7 +10,7 @@ const HomeView = () => {
       <div className="home-view">
         <h1 className="welcome-text">Welcome to Links Taxi</h1>
         <CustomCarousel />
-        <MessageButtons phoneNumber="+94777598000" />
+        <MessageButtons phoneNumber="+94777598021" />
         <Services />
       </div>
     </React.Fragment>
