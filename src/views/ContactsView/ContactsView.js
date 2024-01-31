@@ -33,13 +33,15 @@ function ContactsView() {
         </Col>
         <Col xs={12} md={6}>
           <div className="owner-card">
-            <img src={ownerImage} alt="Owner" className="owner-image" />
             <div className="owner-info p-1">
-              <h3 className="owner-name">Owner's Name</h3>
+              <h3 className="owner-name">🚖 Welcome to Links Taxi! 🚖</h3>
               <p className="owner-bio">
-                Owner's Bio Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit.
+                Meet our experienced driver with over 22 years of expertise in
+                the transportation industry! At Links Taxi, we're proud to offer
+                you the skilled services of a seasoned driver who knows the
+                roads like the back of their hand.
               </p>
+              <img src={ownerImage} alt="Owner" className="owner-image" />
               <p>Email: linkstourssrilanka@gmail.com</p>
               <p>Contact: +94 777598000, +94 713366180</p>
             </div>

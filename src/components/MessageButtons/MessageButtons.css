@@ -1,0 +1,22 @@
+.message-buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #ded637; /* Set the background color to yellow */
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
+  
+  .message-buttons-container a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .message-buttons-container a:hover {
+    color: #007bff;
+  }
+  
