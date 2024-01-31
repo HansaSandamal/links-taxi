@@ -20,11 +20,11 @@ function App() {
           <Route path="/" element={<HomeView />} />
           <Route path="/service" element={<Services />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="service/airport transfers" element={<AirportTransfersView />}/>
-          <Route path="/service/long distance" element={<LongDistanceView />} />
-          <Route path="/service/day tours" element={<DayToursView/>} />
-          <Route path="/service/city tours" element={<CityToursView/>} />
-          <Route path="/service/yala udawalawa safari" element={<SafariView/>} />
+          <Route path="service/airport" element={<AirportTransfersView />}/>
+          <Route path="/service/long" element={<LongDistanceView />} />
+          <Route path="/service/day" element={<DayToursView/>} />
+          <Route path="/service/city" element={<CityToursView/>} />
+          <Route path="/service/safari" element={<SafariView/>} />
         </Routes>
       </BrowserRouter>
       <Footer />
