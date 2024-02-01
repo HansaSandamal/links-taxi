@@ -16,7 +16,11 @@ const Services = () => {
         {services.map((service, index) => (
           <Col key={index} md={4} className="mb-4">
             {/* Use Link to navigate to a specific route when clicking on the card */}
-            <Link to={`/service/${encodeURIComponent(service.title.toLowerCase())}`}>
+            <Link
+              to={`/service/${encodeURIComponent(
+                service.title.toLowerCase().replace(/\s+/g, "-")
+              )}`}
+            >
               <div className="service-card">
                 <img
                   src={service.image}
