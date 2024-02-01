@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import "./_Header.css";
 import logo from "../../assets/images/logo.png";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -24,19 +25,19 @@ const Header = () => {
         <NavDropdown title="Services" id="basic-nav-dropdown">
           <NavDropdown.Item href="/service">All Services</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="/service/airport-transfers">
+          <NavDropdown.Item as={Link} to="/service/airport-transfers">
             Airport Transfers
           </NavDropdown.Item>
-          <NavDropdown.Item href="/service/long-distance">
+          <NavDropdown.Item as={Link} to="/service/long-distance">
             Long Distance
           </NavDropdown.Item>
-          <NavDropdown.Item href="/service/day-tours">
+          <NavDropdown.Item as={Link} to="/service/day-tours">
             Day Tours
           </NavDropdown.Item>
-          <NavDropdown.Item href="/service/city-tours">
+          <NavDropdown.Item as={Link} to="/service/city-tours">
             City Tours
           </NavDropdown.Item>
-          <NavDropdown.Item href="/service/yala-udawalawa-safari">
+          <NavDropdown.Item as={Link} to="/service/yala-udawalawa-safari">
             Yala Udawalawa Safari
           </NavDropdown.Item>
         </NavDropdown>
