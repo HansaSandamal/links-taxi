@@ -24,19 +24,19 @@ const Header = () => {
         <NavDropdown title="Services" id="basic-nav-dropdown">
           <NavDropdown.Item href="/service">All Services</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="/service/airport">
+          <NavDropdown.Item href="/service/airport transfers">
             Airport Transfers
           </NavDropdown.Item>
-          <NavDropdown.Item href="/service/long">
+          <NavDropdown.Item href="/service/long distance">
             Long Distance
           </NavDropdown.Item>
-          <NavDropdown.Item href="/service/day">
+          <NavDropdown.Item href="/service/day tours">
             Day Tours
           </NavDropdown.Item>
-          <NavDropdown.Item href="/service/city">
+          <NavDropdown.Item href="/service/city tours">
             City Tours
           </NavDropdown.Item>
-          <NavDropdown.Item href="/service/safari">
+          <NavDropdown.Item href="/service/yala udawalawa safari">
             Yala Udawalawa Safari
           </NavDropdown.Item>
         </NavDropdown>
