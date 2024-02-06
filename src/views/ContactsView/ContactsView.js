@@ -6,7 +6,8 @@ import whatsapp from "../../assets/images/whatsapp.png";
 import { configs } from "../../utils/config";
 import "./_ContactsView.css";
 import Map from "../../components/Map/Map";
-import ownerImage from "../../assets/images/ownerImage.jpeg";
+import ownerImage from "../../assets/images/ownerImage.jpg";
+import "../../assets/styles/common.css";
 
 const SocialButton = ({ image, url, title, margin }) => {
   return (
