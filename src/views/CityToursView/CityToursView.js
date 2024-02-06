@@ -3,7 +3,7 @@ import React from "react";
 import PackageTable from "../../components/PackageTable/PackageTable";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
 import "../../assets/styles/common.css";
-import image from "../../assets/images/city/img21.jpeg";
+import image from "../../assets/images/city/img21.jpg";
 import image1 from "../../assets/images/city/img22.jpeg";
 import image2 from "../../assets/images/city/img23.jpeg";
 import image3 from "../../assets/images/city/img24.jpeg";
