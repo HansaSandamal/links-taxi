@@ -4,12 +4,14 @@ import "./_AirportTransfersView.css";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
 import PackageTable from "../../components/PackageTable/PackageTable";
 import "../../assets/styles/common.css";
+import image from "../../assets/images/airport.jpg";
+
 
 const AirportTransfersView = () => {
   const images = [
-    { url: "https://via.placeholder.com/200", alt: "Image 1" },
-    { url: "https://via.placeholder.com/200", alt: "Image 2" },
-    { url: "https://via.placeholder.com/200", alt: "Image 3" },
+    { url: image, alt: "Image 1" },
+    { url: image, alt: "Image 2" },
+    { url: image, alt: "Image 3" },
     // Add more images as needed
   ];
 

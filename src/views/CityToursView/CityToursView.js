@@ -3,6 +3,11 @@ import React from "react";
 import PackageTable from "../../components/PackageTable/PackageTable";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
 import "../../assets/styles/common.css";
+import image from "../../assets/images/city/img21.jpeg";
+import image1 from "../../assets/images/city/img22.jpeg";
+import image2 from "../../assets/images/city/img23.jpeg";
+import image3 from "../../assets/images/city/img24.jpeg";
+
 
 const CityToursView = () => {
   const packagesData = [
@@ -16,9 +21,10 @@ const CityToursView = () => {
   ];
 
   const images = [
-    { url: "https://via.placeholder.com/200", alt: "Image 1" },
-    { url: "https://via.placeholder.com/200", alt: "Image 2" },
-    { url: "https://via.placeholder.com/200", alt: "Image 3" },
+    { url: image, alt: "Image 1" },
+    { url: image1, alt: "Image 2" },
+    { url: image2, alt: "Image 3" },
+    { url: image3, alt: "Image 4" },
     // Add more images as needed
   ];
 
