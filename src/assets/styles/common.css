@@ -1,4 +1,8 @@
 .title {
-    margin: 5px;
-    background-color: #ded637;
-  }
+  margin: 5px;
+  background-color: #ded637;
+}
+
+.image-gallery-container {
+  background-color: #ded637;
+}
