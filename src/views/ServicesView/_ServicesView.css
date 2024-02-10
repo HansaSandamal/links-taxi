@@ -27,9 +27,16 @@
 /* Card body styles */
 .card-body {
     padding: 20px;
+    background-color: #343a40;
+    color: #ded637;
 }
 
 /* Page title styles */
 h2 {
     color: #333;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from parent */
 }
