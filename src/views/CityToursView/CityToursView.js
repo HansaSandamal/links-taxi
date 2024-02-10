@@ -8,16 +8,19 @@ import image1 from "../../assets/images/city/img22.jpeg";
 import image2 from "../../assets/images/city/img23.jpeg";
 import image3 from "../../assets/images/city/img24.jpeg";
 
-
 const CityToursView = () => {
   const packagesData = [
     {
-      name: "Standard",
-      price: "$50",
-      description: "Standard transfer service",
+      name: "Galle Tour",
+      description:
+        "Visit Galle Fort, Jungle Beach, Fruit and Fish Market, Monsteme Mine, Seafood Restaurants",
     },
-    { name: "Premium", price: "$100", description: "Premium transfer service" },
-    // Add more packages as needed
+    {
+      name: "Colombo Tour",
+      description:
+        "Explore Independence Square, Red Mosque, Gangarama Temple, Galle Face, One Galle Face Shopping Mall, Lotus Tower, Colombo Bayar Visit, Sri Ponnambalam Vanesar Kovil",
+    },
+    // Add more city tours as needed
   ];
 
   const images = [

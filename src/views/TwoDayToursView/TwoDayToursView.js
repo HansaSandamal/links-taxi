@@ -1,11 +1,10 @@
 // AirportTransfers.js
 import React from "react";
-import "./_AirportTransfersView.css";
+import "./_TwoDayToursView.css";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
 import PackageTable from "../../components/PackageTable/PackageTable";
 import "../../assets/styles/common.css";
 import image from "../../assets/images/airport.jpg";
-
 
 const AirportTransfersView = () => {
   const images = [
@@ -15,20 +14,27 @@ const AirportTransfersView = () => {
     // Add more images as needed
   ];
 
-  // Sample package data
   const packagesData = [
     {
-      name: "Standard",
-      price: "$50",
-      description: "Standard transfer service",
+      name: "Ella Tour",
+      description:
+        "Visit Ravana Falls, Nine Arch, Mini Adams Peak, Sitha Temple, Hakgala Garden, Gregory Lake in Ella.",
     },
-    { name: "Premium", price: "$100", description: "Premium transfer service" },
-    // Add more packages as needed
+    {
+      name: "Nuwara Eliya Tour",
+      description:
+        "Explore Nuwara Eliya with visits to a Tea Factory, Tea Lounge, and Ramboda Falls.",
+    },
+    {
+      name: "Kandy Tour",
+      description: "Visit the Temple of the Tooth in Kandy.",
+    },
+    // Add more Two Day Tours as needed
   ];
   return (
     <div>
       <div className="title">
-        <h2>Airport Transfers</h2>
+        <h2>Two Day Tours Packages</h2>
       </div>
       {/* Package Table */}
       <PackageTable packages={packagesData} />

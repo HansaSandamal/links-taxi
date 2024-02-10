@@ -52,15 +52,27 @@ const DayToursView = () => {
     // Add more images as needed
   ];
 
-  // Sample package data
   const packagesData = [
     {
-      name: "Standard",
-      price: "$50",
-      description: "Standard transfer service",
+      name: "Ella Tour",
+      description: "Explore Ella including Nine Arch, Mini Adams Peak, Ravana Falls, Train Journey, Feeding to Monkeys, Buduruwagala Temple",
     },
-    { name: "Premium", price: "$100", description: "Premium transfer service" },
-    // Add more packages as needed
+    {
+      name: "Sigiriya Tour",
+      description: "Climb Sigiri Rock, visit Golden Temple, Herbal Gardens, Village Tours",
+    },
+    {
+      name: "Pinnawala Tour",
+      description: "Visit Elephant Orphanage, Elephant Bath, Village Tours",
+    },
+    {
+      name: "Whale Watching Tour",
+      description: "Experience Whale Watching, Turtle Hatchery, Stilt Fishing, Coconut Hill, Sea Bath",
+    },
+    {
+      name: "Madu River Boat Safari",
+      description: "Enjoy Boat Safari, Visit Monston Mine Village, Turtle Hatchery, Kayak Boat Adventure",
+    },
   ];
   return (
     <div>

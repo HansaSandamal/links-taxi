@@ -25,20 +25,26 @@ const Header = () => {
         <NavDropdown title="Services" id="basic-nav-dropdown">
           <NavDropdown.Item href="/service">All Services</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item as={Link} to="/service/airport-transfers">
-            Airport Transfers
-          </NavDropdown.Item>
-          <NavDropdown.Item as={Link} to="/service/long-distance">
-            Long Distance
-          </NavDropdown.Item>
           <NavDropdown.Item as={Link} to="/service/day-tours">
             Day Tours
           </NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/service/two-day-tours">
+            Two Day Tours
+          </NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/service/three-day-tours">
+            Three Day Tours
+          </NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/service/seven-day-tours">
+            Seven Day Tours
+          </NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/service/nine-day-tours">
+            Nine Day Tours
+          </NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/service/twelve-day-tours">
+            Twelve Day Tours
+          </NavDropdown.Item>
           <NavDropdown.Item as={Link} to="/service/city-tours">
             City Tours
-          </NavDropdown.Item>
-          <NavDropdown.Item as={Link} to="/service/yala-udawalawa-safari">
-            Yala Udawalawa Safari
           </NavDropdown.Item>
         </NavDropdown>
         <Nav.Link href="/contacts">Contacts</Nav.Link>

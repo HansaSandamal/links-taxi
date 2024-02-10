@@ -2,11 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./_ServicesView.css";
-import airportImage from "../../assets/images/airport.jpg";
-import longDistanceImage from "../../assets/images/long-distance.jpg";
-import dayToursImage from "../../assets/images/day-tours.jpg";
+import dayToursImage from "../../assets/images/long/img25.jpeg";
 import cityToursImage from "../../assets/images/city-tours.jpg";
 import safariImage from "../../assets/images/safari.jpg";
+import twoDayToursImage from "../../assets/images/day/img1.jpeg";
+import sevenDayToursImage from "../../assets/images/safari/img34.jpeg";
+import nineDayToursImage from "../../assets/images/day/img8.jpeg";
+import twelveDayToursImage from "../../assets/images/long/img29.jpeg";
+
+
+
 
 const Services = () => {
   return (
@@ -41,25 +46,33 @@ const Services = () => {
 
 const services = [
   {
-    title: "Airport Transfers",
-    image: airportImage,
-  },
-  {
-    title: "Long Distance",
-    image: longDistanceImage,
-  },
-  {
     title: "Day Tours",
+    image: safariImage,
+  },
+  {
+    title: "Two Day Tours",
+    image: twoDayToursImage,
+  },
+  {
+    title: "Three Day Tours",
     image: dayToursImage,
+  },
+  {
+    title: "Seven Day Tours",
+    image: sevenDayToursImage,
+  },
+  {
+    title: "Nine Day Tours",
+    image: nineDayToursImage,
+  },
+  {
+    title: "Twelve Day Tours",
+    image: twelveDayToursImage,
   },
   {
     title: "City Tours",
     image: cityToursImage,
-  },
-  {
-    title: "Yala Udawalawa Safari",
-    image: safariImage,
-  },
+  }
 ];
 
 export default Services;

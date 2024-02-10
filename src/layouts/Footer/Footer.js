@@ -11,7 +11,7 @@ function Footer() {
           </div>
           <div className="col-md-6 text-center text-md-right">
             <p>
-              Contact: +94 777598000, +94 713366180 | Email:
+              Contact: +94 777598021, +94 713366180 | Email:
               linkstourssrilanka@gmail.com
             </p>
           </div>

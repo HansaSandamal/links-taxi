@@ -44,7 +44,7 @@ function ContactsView() {
               </p>
               <img src={ownerImage} alt="Owner" className="owner-image" />
               <p>Email: linkstourssrilanka@gmail.com</p>
-              <p>Contact: +94 777598000, +94 713366180</p>
+              <p>Contact: +94 777598021, +94 713366180</p>
             </div>
           </div>
         </Col>

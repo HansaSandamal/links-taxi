@@ -13,7 +13,7 @@ import image6 from "../../assets/images/long/img31.jpeg";
 import image7 from "../../assets/images/long/img32.jpeg";
 import image8 from "../../assets/images/long/img33.jpeg";
 
-const LongDistanceView = () => {
+const TwelveDayToursView = () => {
   const images = [
     { url: image, alt: "Image 0" },
     { url: image1, alt: "Image 1" },
@@ -23,24 +23,39 @@ const LongDistanceView = () => {
     { url: image5, alt: "Image 5" },
     { url: image6, alt: "Image 6" },
     { url: image7, alt: "Image 7" },
-    { url: image8, alt: "Image 8" }
+    { url: image8, alt: "Image 8" },
     // Add more images as needed
   ];
 
-  // Sample package data
   const packagesData = [
     {
-      name: "Standard",
-      price: "$50",
-      description: "Standard transfer service",
+      name: "Airport - Anuradhapura",
+      description: "Visit Anuradhapura after arriving at the airport.",
     },
-    { name: "Premium", price: "$100", description: "Premium transfer service" },
-    // Add more packages as needed
+    {
+      name: "Trincomalee - Polonnaruwa",
+      description: "Explore Trincomalee and Polonnaruwa.",
+    },
+    {
+      name: "Sigiriya - Kandy - Pinnawala",
+      description:
+        "Discover Sigiriya, Kandy, and Pinnawala Elephant Orphanage.",
+    },
+    {
+      name: "Nuwara Eliya - Ella",
+      description: "Experience Nuwara Eliya and Ella.",
+    },
+    {
+      name: "Yala/Udawalawa - Waligama - Colombo Airport",
+      description:
+        "Visit Yala or Udawalawa, Waligama, and return to Colombo Airport.",
+    },
+    // Add more 12 Days Tours as needed
   ];
   return (
     <div>
       <div className="title">
-        <h2>Long Distance Packages</h2>
+        <h2>Twelve Day Tours Packages</h2>
       </div>
 
       <PackageTable packages={packagesData} />
@@ -52,4 +67,4 @@ const LongDistanceView = () => {
   );
 };
 
-export default LongDistanceView;
+export default TwelveDayToursView;
