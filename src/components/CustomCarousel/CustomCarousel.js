@@ -1,8 +1,9 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import image1 from "../../assets/images/city-tours.jpg";
-import image2 from "../../assets/images/long-distance.jpg";
+import image1 from "../../assets/images/day/img4.jpeg";
+import image2 from "../../assets/images/day/img7.jpeg";
 import image3 from "../../assets/images/day-tours.jpg";
+import "./_CustomCarousel.css"; // Import CSS file
 
 const CustomCarousel = () => {
   return (
