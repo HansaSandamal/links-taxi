@@ -8,7 +8,7 @@ import image from "../../assets/images/airport.jpg";
 
 const AirportTransfersView = () => {
   const images = [
-    { url: "/static/media/airport.jpg", alt: "Image 1" },
+    { url: "https://links-taxi.netlify.app/static/media/airport.jpg", alt: "Image 1" },
     { url: image, alt: "Image 2" },
     { url: image, alt: "Image 3" },
     // Add more images as needed
