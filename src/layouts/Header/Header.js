@@ -23,7 +23,9 @@ const Header = () => {
       <Nav className="mr-auto">
         <Nav.Link href="/">Home</Nav.Link>
         <NavDropdown title="Services" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/service">All Services</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/service">
+            All Services
+          </NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item as={Link} to="/service/day-tours">
             Day Tours
@@ -47,8 +49,12 @@ const Header = () => {
             City Tours
           </NavDropdown.Item>
         </NavDropdown>
-        <Nav.Link href="/gallery">Gallery</Nav.Link>
-        <Nav.Link href="/contacts">Contacts</Nav.Link>
+        <Nav.Link as={Link} to="/gallery">
+          Gallery
+        </Nav.Link>
+        <Nav.Link as={Link} to="/contacts">
+          Contacts
+        </Nav.Link>
       </Nav>
     </Navbar>
   );
