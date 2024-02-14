@@ -24,9 +24,6 @@ import image18 from "../../assets/images/day/img18.jpeg";
 import image19 from "../../assets/images/day/img19.jpeg";
 import image20 from "../../assets/images/day/img20.jpeg";
 
-
-
-
 const DayToursView = () => {
   const images = [
     { url: image1, alt: "Image 1" },
@@ -55,23 +52,38 @@ const DayToursView = () => {
   const packagesData = [
     {
       name: "Ella Tour",
-      description: "Explore Ella including Nine Arch, Mini Adams Peak, Ravana Falls, Train Journey, Feeding to Monkeys, Buduruwagala Temple",
+      description:
+        "Explore Ella including Nine Arch Bridge, Little Adam's Peak, Ravana Falls, Flying Ravana, Ravana Cave, and Ella Rock Trailhead.",
     },
     {
       name: "Sigiriya Tour",
-      description: "Climb Sigiri Rock, visit Golden Temple, Herbal Gardens, Village Tours",
+      description:
+        "Climb Sigiriya Lion Rock, Pidurangala Rock, visit Sigiriya ancient city, Herbal Garden, Sigiriya Village Tour, and Dambulla Cave Temple.",
+    },
+    {
+      name: "Yala Safari",
+      description:
+        "Embark on an exciting safari adventure in Yala National Park.",
+    },
+    {
+      name: "Udawalawe Safari",
+      description:
+        "Discover the wildlife of Udawalawe National Park on a thrilling safari.",
     },
     {
       name: "Pinnawala Tour",
-      description: "Visit Elephant Orphanage, Elephant Bath, Village Tours",
+      description:
+        "Visit the Pinnawala Elephant Orphanage, witness Elephant Bath, and explore the nearby Village.",
     },
     {
       name: "Whale Watching Tour",
-      description: "Experience Whale Watching, Turtle Hatchery, Stilt Fishing, Coconut Hill, Sea Bath",
+      description:
+        "Experience Whale Watching, visit Turtle Hatchery, witness Stilt Fishing, explore Coconut Hill, and enjoy Sea Bathing.",
     },
     {
       name: "Madu River Boat Safari",
-      description: "Enjoy Boat Safari, Visit Monston Mine Village, Turtle Hatchery, Kayak Boat Adventure",
+      description:
+        "Enjoy a Boat Safari along Madu River, explore Monston Mine Village, visit Turtle Hatchery, and experience Kayak Boat Adventure.",
     },
   ];
   return (

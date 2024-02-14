@@ -16,11 +16,13 @@ const NineDayToursView = () => {
   const packagesData = [
     {
       name: "1st Package:",
-      description: "Travel from the airport to Anuradhapura. Visit Polonnaruwa and Sigiriya. Proceed to Kandy and Pinnawala. Explore Nuwara Eliya and Ella. Visit Yala, Mirissa, Bentota, Colombo, and return to the airport.",
+      description:
+        "Travel from the airport to Anuradhapura. Visit Polonnaruwa and Sigiriya. Proceed to Kandy, Nuwara Eliya, Ella, Yala, Udawalawa, Mirissa, Bentota, and return to the airport.",
     },
     {
       name: "2nd Package:",
-      description: "Travel from the airport to Trincomalee. Visit Polonnaruwa and Sigiriya. Proceed to Kandy and Pinnawala. Explore Nuwara Eliya and Ella. Visit Yala, Galle, Colombo, and return to the airport.",
+      description:
+        "Travel from the airport to Anuradhapura, Trincomalee. Visit Polonnaruwa and Sigiriya. Proceed to Kandy, Nuwara Eliya, Ella, Yala/Udawalawa, Tangalle, Mirissa/Galle/Bentota, Colombo, and return to the airport.",
     },
     // Add more Nine Day Tours as needed
   ];

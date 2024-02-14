@@ -29,28 +29,10 @@ const TwelveDayToursView = () => {
 
   const packagesData = [
     {
-      name: "Airport - Anuradhapura",
-      description: "Visit Anuradhapura after arriving at the airport.",
-    },
-    {
-      name: "Trincomalee - Polonnaruwa",
-      description: "Explore Trincomalee and Polonnaruwa.",
-    },
-    {
-      name: "Sigiriya - Kandy - Pinnawala",
+      name: "package",
       description:
-        "Discover Sigiriya, Kandy, and Pinnawala Elephant Orphanage.",
+        "Experience the wonders of Anuradhapura, Mihintale, Trincomalee, Polonnaruwa, Sigiriya, Kandy, Pinnawala, Nuwara Eliya, Haputale, Ella, Yala, Mirissa, Galle/Hikkaduwa, Bentota/Negombo, and return to the Airport.",
     },
-    {
-      name: "Nuwara Eliya - Ella",
-      description: "Experience Nuwara Eliya and Ella.",
-    },
-    {
-      name: "Yala/Udawalawa - Waligama - Colombo Airport",
-      description:
-        "Visit Yala or Udawalawa, Waligama, and return to Colombo Airport.",
-    },
-    // Add more 12 Days Tours as needed
   ];
   return (
     <div>

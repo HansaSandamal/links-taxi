@@ -7,7 +7,10 @@ import image from "../../assets/images/airport.jpg";
 
 const AirportTransfersView = () => {
   const images = [
-    { url: "https://links-taxi.netlify.app/static/media/airport.jpg", alt: "Image 1" },
+    {
+      url: "https://links-taxi.netlify.app/static/media/airport.jpg",
+      alt: "Image 1",
+    },
     { url: image, alt: "Image 2" },
     { url: image, alt: "Image 3" },
     // Add more images as needed
@@ -17,19 +20,21 @@ const AirportTransfersView = () => {
     {
       name: "Ella Tour",
       description:
-        "Visit Ravana Falls, Nine Arch, Mini Adams Peak, Sitha Temple, Hakgala Garden, Gregory Lake in Ella.",
+        "Experience the beauty of Ella with visits to Ravana Falls, the iconic Nine Arch Bridge, Little Adams Peak, Flying Ravana, and indulge in Ella Spice Garden cooking lessons.",
     },
     {
       name: "Nuwara Eliya Tour",
       description:
-        "Explore Nuwara Eliya with visits to a Tea Factory, Tea Lounge, and Ramboda Falls.",
+        "Embark on a journey through Nuwara Eliya with stops at a Tea Factory, Tea Lounge, and Ramboda Falls. Explore Hakgala Garden, Seetha Amman Temple, Gregory Lake, and enjoy a night stay in Nuwara Eliya.",
     },
     {
       name: "Kandy Tour",
-      description: "Visit the Temple of the Tooth in Kandy.",
+      description:
+        "Discover the cultural heart of Sri Lanka with a visit to the Temple of the Tooth in Kandy, and explore the charming streets of Kandy town.",
     },
     // Add more Two Day Tours as needed
   ];
+
   return (
     <div>
       <div className="title">

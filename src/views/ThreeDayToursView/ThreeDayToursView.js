@@ -37,23 +37,24 @@ const ThreeDayToursView = () => {
 
   const packagesData = [
     {
-      name: "Ella Tour",
+      name: "Sigiriya Tour",
       description:
-        "Explore Ravana Fall, Nine Arch, Mini Adams Peak, Ella Rock in Ella.",
+        "Climb Sigiriya Lion Rock, Pidurangala Rock, visit Herbal Garden, take a Sigiriya Village Tour, and explore Dambulla Cave Temple.",
+    },
+    {
+      name: "Kandy Tour",
+      description:
+        "(1st Night in Kandy) Enjoy a Cultural dance in Kandy, explore the Sacred City of Kandy, take a town visit, and visit the Temple of the Tooth in Kandy. Also, visit Ramboda Falls and a tea factory.",
     },
     {
       name: "Nuwara Eliya Tour",
       description:
-        "Enjoy Gregory Lake, Sitha Temple, Tea Factory and Lounge, Tea Garden, Ramboda Falls in Nuwara Eliya. Stay overnight.",
+        "(Second Night in Nuwara Eliya) Experience Gregory Lake, visit Nuwara Eliya town, and explore the old post office.",
     },
     {
-      name: "Kandy Tour",
-      description: "Visit the Temple of the Tooth in Kandy. Stay overnight.",
-    },
-    {
-      name: "3rd Day Tour",
+      name: "Ella Tour",
       description:
-        "Visit Matale Hindu Temple, Nalagoda Gedige, Herbal Garden, Sigiriya Rock, Village Tours, Golden Temple.",
+        "Explore Ella, including the Nine Arch Bridge, Little Adam's Peak, Ravana Falls, and Ella town.",
     },
     // Add more Three Day Tours as needed
   ];

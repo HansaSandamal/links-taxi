@@ -39,17 +39,17 @@ const SevenDayToursView = () => {
     {
       name: "1st Package:",
       description:
-        "Start from the airport, visit Sigiriya, Polonnaruwa, Kandy, Nuwara Eliya, Ella, Yala, Galle, and return to the airport.",
+        "Start from the airport, visit Sigiriya, Polonnaruwa, Kandy, Nuwara Eliya, Ella, Yala safari, Galle, and return to the airport.",
     },
     {
       name: "2nd Package:",
       description:
-        "Start from the airport, visit Sigiriya, Kandy, Nuwara Eliya, Ella, Tangalle, Bentota, and return to the airport.",
+        "Start from the airport, visit Sigiriya, Kandy, Nuwara Eliya, Ella, Yala/Udawalawa safari, Hikkaduwa/Mirissa/Galle, Colombo, and return to the airport.",
     },
     {
       name: "3rd Package:",
       description:
-        "Start from the airport, visit Pinnawala, Sigiriya, Kandy, Nuwara Eliya, Beruwala, and return to the airport.",
+        "Start from the airport, visit Kalpitiya, Wilpattu, Habarana, Polonnaruwa, Sigiriya, Kandy, Colombo, and return to the airport.",
     },
     // Add more Seven Day Tours as needed
   ];
