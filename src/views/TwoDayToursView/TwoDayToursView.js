@@ -40,7 +40,14 @@ const AirportTransfersView = () => {
       <PackageTable packages={packagesData} />
 
       <div className="image-gallery-container p-5">
-        <ImageGallery images={images} />
+        {/* <ImageGallery images={images} /> */}
+        <div className="image-gallery">
+          {images.map((image, index) => (
+            <div key={index} className="image-item">
+              <img src={image.url} alt={image.alt} />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
