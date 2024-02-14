@@ -1,7 +1,6 @@
 // AirportTransfers.js
 import React from "react";
 import "./_TwoDayToursView.css";
-import ImageGallery from "../../components/ImageGallery/ImageGallery";
 import PackageTable from "../../components/PackageTable/PackageTable";
 import "../../assets/styles/common.css";
 import image from "../../assets/images/airport.jpg";
