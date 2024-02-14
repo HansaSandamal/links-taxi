@@ -1,17 +1,17 @@
 // AirportTransfers.js
 import React from "react";
-import ImageGallery from "../../components/ImageGallery/ImageGallery";
+// import ImageGallery from "../../components/ImageGallery/ImageGallery";
 import PackageTable from "../../components/PackageTable/PackageTable";
 import "../../assets/styles/common.css";
-import image from "../../assets/images/airport.jpg";
+// import image from "../../assets/images/airport.jpg";
 
 const NineDayToursView = () => {
-  const images = [
-    { url: image, alt: "Image 1" },
-    { url: image, alt: "Image 2" },
-    { url: image, alt: "Image 3" },
-    // Add more images as needed
-  ];
+  // const images = [
+  //   { url: image, alt: "Image 1" },
+  //   { url: image, alt: "Image 2" },
+  //   { url: image, alt: "Image 3" },
+  //   // Add more images as needed
+  // ];
 
   const packagesData = [
     {
@@ -35,7 +35,7 @@ const NineDayToursView = () => {
       <PackageTable packages={packagesData} />
 
       <div className="image-gallery-container p-5">
-        <ImageGallery images={images} />
+        {/* <ImageGallery images={images} /> */}
       </div>
     </div>
   );

@@ -3,18 +3,18 @@ import React from "react";
 import "./_TwoDayToursView.css";
 import PackageTable from "../../components/PackageTable/PackageTable";
 import "../../assets/styles/common.css";
-import image from "../../assets/images/airport.jpg";
+// import image from "../../assets/images/airport.jpg";
 
 const AirportTransfersView = () => {
-  const images = [
-    {
-      url: "https://links-taxi.netlify.app/static/media/airport.jpg",
-      alt: "Image 1",
-    },
-    { url: image, alt: "Image 2" },
-    { url: image, alt: "Image 3" },
-    // Add more images as needed
-  ];
+  // const images = [
+  //   {
+  //     url: "https://links-taxi.netlify.app/static/media/airport.jpg",
+  //     alt: "Image 1",
+  //   },
+  //   { url: image, alt: "Image 2" },
+  //   { url: image, alt: "Image 3" },
+  //   // Add more images as needed
+  // ];
 
   const packagesData = [
     {
@@ -45,13 +45,6 @@ const AirportTransfersView = () => {
 
       <div className="image-gallery-container p-5">
         {/* <ImageGallery images={images} /> */}
-        <div className="image-gallery">
-          {images.map((image, index) => (
-            <div key={index} className="image-item">
-              <img src={image.url} alt={image.alt} />
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   );

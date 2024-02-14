@@ -12,6 +12,7 @@ import CityToursView from "./views/CityToursView/CityToursView.js";
 import ThreeDayToursView from "./views/ThreeDayToursView/ThreeDayToursView.js";
 import NineDayToursView from "./views/NineDayToursView/NineDayToursView.js";
 import SevenDayToursView from "./views/SevenDayToursView/SevenDayToursView.js";
+import GalleryView from "./views/GalleryView/GalleryView.js";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
             path="/service/seven-day-tours"
             element={<SevenDayToursView />}
           />
+          <Route path="/gallery" element={<GalleryView />} />
         </Routes>
 
         <Footer />

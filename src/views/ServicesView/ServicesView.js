@@ -2,13 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./_ServicesView.css";
-import dayToursImage from "../../assets/images/long/img25.jpeg";
+import dayToursImage from "../../assets/images/gallery/oneday/1.jpeg";
 import cityToursImage from "../../assets/images/city-tours.jpg";
 import safariImage from "../../assets/images/safari.jpg";
 import twoDayToursImage from "../../assets/images/day/img1.jpeg";
 import sevenDayToursImage from "../../assets/images/safari/img34.jpeg";
 import nineDayToursImage from "../../assets/images/day/img8.jpeg";
-import twelveDayToursImage from "../../assets/images/long/img29.jpeg";
+import twelveDayToursImage from "../../assets/images/gallery/twoday/4.jpeg";
 
 
 
@@ -47,7 +47,7 @@ const Services = () => {
 const services = [
   {
     title: "Day Tours",
-    image: safariImage,
+    image: dayToursImage,
   },
   {
     title: "Two Day Tours",
@@ -55,7 +55,7 @@ const services = [
   },
   {
     title: "Three Day Tours",
-    image: dayToursImage,
+    image: safariImage,
   },
   {
     title: "Seven Day Tours",

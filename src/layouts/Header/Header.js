@@ -47,6 +47,7 @@ const Header = () => {
             City Tours
           </NavDropdown.Item>
         </NavDropdown>
+        <Nav.Link href="/gallery">Gallery</Nav.Link>
         <Nav.Link href="/contacts">Contacts</Nav.Link>
       </Nav>
     </Navbar>
