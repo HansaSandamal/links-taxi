@@ -18,7 +18,7 @@ const CityToursView = () => {
     {
       name: "Colombo Tour",
       description:
-        "Explore Independence Square, Red Mosque, Gangarama Temple, Galle Face, One Galle Face Shopping Mall, Lotus Tower, Colombo Bayar Visit, Sri Ponnambalam Vanesar Kovil",
+        "Explore Independence Square, Red Mosque, Gangarama Temple, Galle Face, One Galle Face Shopping Mall, Lotus Tower, Colombo Bazaar Visit, Sri Ponnambalam Vanesar Kovil",
     },
     // Add more city tours as needed
   ];

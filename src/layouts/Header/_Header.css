@@ -1,8 +1,29 @@
+/* _Header.css */
+
 .navbar-brand-custom {
-    margin-left: 10px;
+    padding: 10px 0; /* Add padding to the top and bottom */
 }
 
 .navbar-brand-custom img {
-    filter: brightness(0) invert(1);
-    /* Change logo color to white */
+    filter: brightness(0) invert(1); /* Change logo color to white */
+    margin-right: 10px; /* Adjust margin as needed */
+    padding: 10px; /* Add padding around the logo */
+}
+
+/* Media query for small screens (up to 576px) */
+@media (max-width: 576px) {
+    .navbar-brand-custom {
+        padding: 10px 0 5px; /* Add padding to the top, remove bottom padding */
+        margin-bottom: 10px; /* Add margin between navbar brand and title */
+    }
+    
+
+    .navbar-brand-custom img {
+        padding: 5px; /* Adjust padding around the logo */
+        margin-right: 5px; /* Adjust margin as needed */
+    }
+
+    .navbar-brand {
+        margin-left: 5px;
+    }
 }
