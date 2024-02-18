@@ -8,6 +8,10 @@ const MessageButtons = ({ phoneNumber }) => {
 
   return (
     <div className="message-buttons-wrapper">
+      <h2 className="mt-2">
+        Arrive & Explore: Seamless airport pickups for your Sri Lankan
+        adventure!
+      </h2>
       <h2 className="mt-2">Send Us Message Start your Ride!!!</h2>
       <div className="message-buttons-container">
         <a href={whatsappURL} target="_blank" rel="noopener noreferrer">
