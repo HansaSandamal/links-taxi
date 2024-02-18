@@ -9,6 +9,14 @@ import image7 from "../../assets/images/gallery/oneday/7.jpeg";
 import image01 from "../../assets/images/gallery/twoday/1.jpeg";
 import image02 from "../../assets/images/gallery/twoday/2.jpeg";
 import image03 from "../../assets/images/gallery/twoday/3.jpeg";
+import imageair1 from "../../assets/images/gallery/air/1.jpeg";
+import imageair2 from "../../assets/images/gallery/air/2.jpeg";
+import imageair3 from "../../assets/images/gallery/air/3.jpeg";
+import imageair4 from "../../assets/images/gallery/air/4.jpeg";
+import imageair5 from "../../assets/images/gallery/air/5.jpeg";
+
+
+
 
 
 const oneDayImages = [
@@ -91,6 +99,17 @@ const cityToursImages = [
   { url: image6, alt: "Image 6" },
   { url: image7, alt: "Image 7" },
 ];
+
+const airportImages = [
+  {
+    url: imageair1,
+    alt: "Image 1",
+  },
+  { url: imageair2, alt: "Image 2" },
+  { url: imageair3, alt: "Image 3" },
+  { url: imageair4, alt: "Image 4" },
+  { url: imageair5, alt: "Image 5" },
+];
 const GalleryView = () => {
   return (
     <>
@@ -122,7 +141,10 @@ const GalleryView = () => {
       <div className="image-gallery-container p-5">
         <ImageGallery images={cityToursImages} />
       </div>
-      
+      <h2 className="text-center mb-4">Airport Transfer</h2>
+      <div className="image-gallery-container p-5">
+        <ImageGallery images={airportImages} />
+      </div>
     </>
   );
 };
