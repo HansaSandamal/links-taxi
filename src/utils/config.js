@@ -1,3 +1,3 @@
 export const configs = {
-    siteLink: "https://links-taxi.netlify.app/",
+    siteLink: "https://links-taxi.onrender.com/",
   };
